@@ -80,7 +80,7 @@
 >线上词典API：https://v2.xxapi.cn/api/englishwords
 
 ## 手动编辑
-* 点击 `阅读视图栏` 右侧的 <img src="./icons/toolbar-edit.svg" height="15"> 可启用 `编辑模式`，编辑阅读视图中的文本。
+* 点击 `阅读视图栏` 右侧的 <img src="./icons/toolbar-edit.svg" height="15"> 可启用 `编辑模式`，编辑 `阅读视图` 中的文本。
 * 点击 `超纲词列表栏` 右侧的 <img src="./icons/toolbar-add.svg" height="15"> <kbd>添加</kbd> 可手动添加超纲词。
 
 >[!TIP]
