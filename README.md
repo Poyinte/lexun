@@ -4,7 +4,7 @@
 
 ## 导入单词表
 
-* 点击左侧栏 `导入单词表`，选择 `.txt` 单词表文件。
+* 点击左侧栏 <img src="./icons/sidebar-import-list.svg" height="15"> <kbd>导入单词表</kbdb，选择 `.txt` 单词表文件。
 
 >[!NOTE]
 > 单词表文件格式为 `一行一词`。
@@ -25,22 +25,22 @@
 
 ## 载入文本
 
-* 复制需要标注的文本后，点击左侧栏 <img src="./icons/sidebar-new-page.svg" height="15"> `新建空白页`，在空白页的 `阅读视图` 中粘贴文本。
+* 复制需要标注的文本后，点击左侧栏 <img src="./icons/sidebar-new-page.svg" height="15"> <kbd>新建空白页</kbd>，在空白页的 `阅读视图` 中粘贴文本。
 
 >[!TIP]
 > 可使用快捷键 <kbd>Ctrl</kbd> + <kbd>V</kbd> 新建空白页并粘贴文本。
 
 
-* 点击左侧栏 <img src="./icons/sidebar-import-text.svg" height="15"> `导入文本`，选择 `.txt` 文本文件 `可多选`。
+* 点击左侧栏 <img src="./icons/sidebar-import-text.svg" height="15"> <kbd>导入文本</kbd>，选择 `.txt` 文本文件 `可多选`。
 
 >[!TIP]
 > 标签页数量过多，标签栏无法一次显示时，可将鼠标移至标签栏两头来左右移动标签栏。
 
-* 点击右侧栏 <img src="./icons/sidebar-clear.svg" height="15"> `清空阅读视图` 会关闭所有标签页。
+* 点击右侧栏 <img src="./icons/sidebar-clear.svg" height="15"> <kbd>清空阅读视图</kbd> 会关闭所有标签页。
 
 ## 超纲词标注
 
-点击左侧栏 `开始标注`。
+点击左侧栏 <kbd>开始标注</kbd>。
 
 ## 查看超纲词
 
@@ -86,5 +86,5 @@
 
 ## 导出结果
 
-* 点击左侧栏 <img src="./icons/sidebar-copy.svg" height="15"> `复制标注结果`，可复制带有标注的文本 `标注词被加粗`。
-* 点击左侧栏 <img src="./icons/sidebar-export.svg" height="15"> `导出超纲词列表`，可生成 `一行一词` 格式的 `.txt` 超纲词列表文件。
+* 点击左侧栏 <img src="./icons/sidebar-copy.svg" height="15"> <kbd>复制标注结果</kbd>，可复制带有标注的文本 `标注词被加粗`。
+* 点击左侧栏 <img src="./icons/sidebar-export.svg" height="15"> <kbd>导出超纲词列表</kbd>，可生成 `一行一词` 格式的 `.txt` 超纲词列表文件。
