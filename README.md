@@ -34,7 +34,7 @@
 * 点击左侧栏 <img src="./icons/sidebar-import-text.svg" height="15"> <kbd>导入文本</kbd>，选择 `.txt` 文本文件 `可多选`。
 
 >[!TIP]
-> 标签页数量过多，标签栏无法一次显示时，可将鼠标移至标签栏两头来左右移动标签栏。
+> 标签页数量过多，标签栏无法一次显示时，可将 `鼠标` 移至标签栏两头来左右移动标签栏。
 
 * 点击右侧栏 <img src="./icons/sidebar-clear.svg" height="15"> <kbd>清空阅读视图</kbd> 会关闭所有标签页。
 
