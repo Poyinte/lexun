@@ -28,7 +28,7 @@
 * 复制需要标注的文本后，点击左侧栏“新建空白页”，在空白页的阅读视图中粘贴文本。
 
 >[!TIP]
-> 直接使用快捷键 <kbd>Ctrl</kbd> + <kbd>V</kbd> 即可新建空白页并粘贴文本。
+> 可使用快捷键 <kbd>Ctrl</kbd> + <kbd>V</kbd> 新建空白页并粘贴文本。
 
 
 * 点击左侧栏 <img src="./icons/sidebar-import-text.svg" height="15"> `导入文本`，选择 `.txt` 文本文件 `可多选`。
@@ -86,5 +86,5 @@
 
 ## 导出结果
 
-* 点击左侧栏 <img src=".icons/sidebar-copy.svg" height="15"> `复制标注结果`，可复制带有标注的文本 `标注词被加粗`。
+* 点击左侧栏 <img src="./icons/sidebar-copy.svg" height="15"> `复制标注结果`，可复制带有标注的文本 `标注词被加粗`。
 * 点击左侧栏 <img src="./icons/sidebar-export.svg" height="15"> `导出超纲词列表`，可生成 `一行一词` 格式的 `.txt` 超纲词列表文件。
