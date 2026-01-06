@@ -967,54 +967,87 @@
             }
         }
 
-        // --- 子函数 2：处理普通单词 (修复 fully -> full) ---
+        // --- 子函数 2：处理普通单词 (修复 fully -> full, peking -> pek, shudder -> shudd) ---
         function handleNormalWord(w, candidates) {
-            // 1. NLP 还原
+            // 1. NLP 还原 (优先信任 Compromise.js)
             const doc = nlp(w);
-            doc.verbs().toInfinitive(); 
+            doc.verbs().toInfinitive();
             doc.nouns().toSingular();
             let lemma = doc.text().trim().toLowerCase();
             if (lemma && lemma !== w) candidates.push(lemma);
 
-            // 2. 手动后缀剥离 (backup)
+            // ============================================================
+            // 2.【关键修复】定义保护词表 (黑名单)
+            // 这些词虽然以 ing/er/ed 结尾，但本身就是原型，或者暴力拆解会得到错误结果
+            // ============================================================
+            const protectedWords = new Set([
+                // ing 结尾的名词/原词
+                'peking', 'thing', 'king', 'ring', 'sing', 'wing', 'bring', 'swing', 'spring',
+                'morning', 'evening', 'ceiling', 'nothing', 'anything', 'something', 'during',
+                'pudding', 'wedding', 'building', 'lightning', 'viking',
+                
+                // er 结尾的原词 (非比较级/施动者)
+                'shudder', 'matter', 'hammer', 'spider', 'cater', 'finger', 'ginger', 
+                'hunger', 'linger', 'anger', 'bother', 'brother', 'mother', 'father', 
+                'sister', 'master', 'corner', 'dinner', 'supper', 'summer', 'winter',
+                'paper', 'water', 'flower', 'tower', 'power', 'shower', 'tiger',
+                'river', 'silver', 'copper', 'member', 'number', 'offer', 'order'
+            ]);
+
+            if (protectedWords.has(w)) return;
+
+            // 3. 手动后缀剥离 (backup logic)
             const addVariants = (base) => {
                 if (base.length <= 2) return;
+                // 安全检查：词根必须包含元音 (避免 sky -> sk 这种误判)
+                if (!/[aeiouy]/.test(base)) return;
+
                 candidates.push(base);
                 candidates.push(base + 'e'); // clos -> close
-                if (base.length > 2) { // bigg -> big
+                
+                // 处理双写辅音还原 (bigg -> big, winn -> win)
+                // 注意：shudder -> shudd -> shud 的问题已被上面的 protectedWords 拦截
+                if (base.length > 2) { 
                     const last = base.slice(-1);
                     const secondLast = base.slice(-2, -1);
-                    if (last === secondLast && /^[a-z]$/.test(last)) candidates.push(base.slice(0, -1));
+                    if (last === secondLast && /^[a-z]$/.test(last)) {
+                        candidates.push(base.slice(0, -1));
+                    }
                 }
                 if (base.endsWith('i')) candidates.push(base.slice(0, -1) + 'y'); // happi -> happy
             };
 
-            if (w.endsWith('est') && w.length > 4) addVariants(w.slice(0, -3));
-            if (w.endsWith('er') && w.length > 3) addVariants(w.slice(0, -2));
+            // 提高长度阈值，避免误伤短词
+            if (w.endsWith('est') && w.length > 5) addVariants(w.slice(0, -3));
+            
+            // er 处理：长度需 > 4 (避免 user -> us)
+            if (w.endsWith('er') && w.length > 4) addVariants(w.slice(0, -2));
             
             // --- 针对 -ly 的修复 (fully -> full) ---
             if (w.endsWith('ly') && w.length > 3) {
                 const base = w.slice(0, -2);
                 candidates.push(base);
                 
-                // 补回丢失的 l (fully -> ful -> full)
                 if (base === 'ful' || base === 'dul' || base === 'shril') {
                     candidates.push(base + 'l');
                 }
-                // wholly -> whole
                 if (base === 'whol') candidates.push('whole');
-                // truly -> true
                 if (base === 'tru') candidates.push('true');
-                // happi -> happy
                 if(base.endsWith('i')) candidates.push(base.slice(0,-1)+'y');
-                // simply -> simple (猜测性补全)
                 if (base.length > 2 && !['a','e','i','o','u','y'].includes(base.slice(-1))) {
                     candidates.push(base + 'le');
                 }
             }
 
-            if (w.endsWith('ed') && w.length > 3) addVariants(w.slice(0, -2));
-            if (w.endsWith('ing') && w.length > 4) addVariants(w.slice(0, -3));
+            if (w.endsWith('ed') && w.length > 4) addVariants(w.slice(0, -2));
+            
+            // ing 处理：长度需 > 4，且剥离后剩余部分需包含元音
+            if (w.endsWith('ing') && w.length > 4) {
+                const base = w.slice(0, -3);
+                if (/[aeiouy]/.test(base)) {
+                    addVariants(base);
+                }
+            }
         }
 
         function isWordKnown(rawWord) {
