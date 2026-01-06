@@ -628,7 +628,7 @@
                     <div class="head-actions">
                         <span id="totalWordStats" class="word-stats">0 Words</span>
                         <button class="tool-btn" id="btnToggleEdit" onclick="toggleEditMode()" title="编辑模式">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
                         </button>
                     </div>
                 </div>
@@ -1114,7 +1114,7 @@
             editor.contentEditable = isEditing;
             const wrapper = document.getElementById('editorWrapper');
             if (isEditing) { wrapper.classList.add('editing-mode'); editor.focus(); btnToggleEdit.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>`; } 
-            else { wrapper.classList.remove('editing-mode'); btnToggleEdit.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>`; }
+            else { wrapper.classList.remove('editing-mode'); btnToggleEdit.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>`; }
         }
 
         function updateBtnState() {
