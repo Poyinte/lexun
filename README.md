@@ -27,6 +27,33 @@
 
 ---
 
+# <img src="./icons/list-check.svg" height="30"> 单词表资源
+
+>[!WARNING]
+> 以下 `.txt` 单词表文件均由 `Python` 脚本自动化提取生成。仅供参考。请以官方正式文件为准。
+
+## 官方来源
+
+<div align="center">
+
+|来　　　　　　源|`.txt` 文件|
+| ---------- | -----------|
+| [全国大学英语四、六级考试大纲<sub>（2016 年修订版）</sub>](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf) | [![CET6](https://img.shields.io/badge/-CET6.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/CET6.txt) |
+| [普通高中英语课程标准<sub>（2017 年版 2020 年修订）</sub>](https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf) | [![CET6](https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/SeniorHigh.txt) |
+
+</div>
+
+## 非官方来源
+
+<div align="center">
+
+|来　　　　　　源|`.txt` 文件|
+| ---------- | -----------|
+| [考研英语必备手册：大纲词汇 5500](https://pdc.capub.cn/search.html#/detail?id=nsinuzstdilibzptpxrwgqdnu6xukdltdr2b7xw7vfsgoa5hwqwaocg5yycskvsiv6sikfilh3yea&from=1&type=cip) | [![KaoYan](https://img.shields.io/badge/-KaoYan.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/KaoYan.txt) |
+| [普通高中英语课程标准<sub>（2017 年版 2020 年修订）</sub>](https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf) | [![CET6](https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/SeniorHigh.txt) |
+
+</div>
+
 # <img src="./icons/rocket.svg" height="30"> 快速使用
 
 ## 导入单词表
@@ -35,20 +62,6 @@
   
 >[!NOTE]
 > 单词表文件格式为 `一行一词`。
-
-以下是两个在国内具有代表性的单词表。
-
->[!WARNING]
-> 以下单词表均提取自相关正式文件。可能有所疏漏，仅供参考。
-
-<div align="center">
-
-| 单　　　词　　　表 |`.txt` 文件|
-| ---------- | -----------|
-| [全国大学英语四、六级考试大纲<sub>（2016 年修订版）</sub>](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf) | [![CET6](https://img.shields.io/badge/-CET6.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/CET6.txt) |
-| [普通高中英语课程标准<sub>（2017 年版 2020 年修订）</sub>](https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf) | [![CET6](https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/SeniorHigh.txt) |
-
-</div>
 
 ## 载入文本
 
@@ -129,7 +142,7 @@
 | :----------: | -----------|
 |`自然语言处理`|[compromise: modest natural-language processing](https://github.com/spencermountain/compromise)|
 |`相关词处理`|[Datamuse API](https://www.datamuse.com/api/) |
-|`在线词典查询`|[英语单词详解 - 免费API](https://v2.xxapi.cn/api/englishwords)|
+|`在线词典查询`|[英语单词详解 - 免费 API](https://v2.xxapi.cn/api/englishwords)|
 |`不规则动词映射表`|[English irregular verbs - Wikipedia](https://en.wikipedia.org/wiki/English_irregular_verbs#List)|
 
 ## 图形资源
