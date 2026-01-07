@@ -122,9 +122,9 @@
 >[!IMPORTANT]
 > 除 `学习窗口` 需联网调用 `API` 外，其余功能均在本地离线运行，数据不会上传至任何服务器。
 
-# 使用资源
+# <img src="./icons/layers.svg" height="30"> 使用资源
 
-## <img src="./icons/layers.svg" height="30"> 自然语言资源
+## 自然语言资源
 | 用　　途 |使　　　用　　　资　　　源|
 | :----------: | -----------|
 |`自然语言处理`|[compromise: modest natural-language processing](https://github.com/spencermountain/compromise)|
