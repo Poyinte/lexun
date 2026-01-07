@@ -36,7 +36,7 @@
 >[!TIP]
 > 标签页数量过多，标签栏无法一次显示时，可将 `鼠标` 移至标签栏左右两端来左右移动标签栏。
 
-* 点击右侧栏 <kbd><img src="./icons/sidebar-clear.svg" height="15" align="center"> 清空阅读视图</kbd> 会关闭所有标签页。
+* 点击左侧栏 <kbd><img src="./icons/sidebar-clear.svg" height="15" align="center"> 清空阅读视图</kbd> 会关闭所有标签页。
 
 ## 超纲词标注
 
