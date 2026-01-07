@@ -11,14 +11,14 @@
 <div align="right">
   
  [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
- 
+ <br>
+ <sub>* 标注结果可能存在错漏。投入使用前请进行人工核对。</sub>
 </div>
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 ---
-
 # 快速使用
 
 ## 导入单词表
