@@ -26,6 +26,9 @@
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 ---
+
+<img src="./icons/rocket.svg" height="300">
+
 # 快速使用
 
 ## 导入单词表
