@@ -38,8 +38,8 @@
 
 |对应考试|来　　　　　　源|`.txt` 文件|
 | :----------: | ---------- | -----------|
-|`四六级`| [《全国大学英语四、六级考试大纲》<sub>（2016 年修订版）</sub>](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf) | [![CET6](https://img.shields.io/badge/-CET6.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/CET6.txt) |
-|`高　考`| [《普通高中英语课程标准》<sub>（2017 年版 2020 年修订）</sub>](https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf) | [![CET6](https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/SeniorHigh.txt) |
+|`四六级`| [《全国大学英语四、六级考试大纲》<sub>（2016 年修订版）</sub>](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf) |<a href="https://github.com/Poyinte/Lexun/releases/download/v1.0.0/CET6.txt"><img src="https://img.shields.io/badge/-CET6.txt-084c91?style=flat-square&logo=googledocs&logoColor=white" align="absmiddle"></a>|
+|`高　考`| [《普通高中英语课程标准》<sub>（2017 年版 2020 年修订）</sub>](https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf) |<a href="https://github.com/Poyinte/Lexun/releases/download/v1.0.0/SeniorHigh.txt"><img src="https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white" align="absmiddle"></a>|
 
 </div>
 
@@ -49,8 +49,8 @@
 
 |对应考试|来　　　　　　源|`.txt` 文件|
 | :----------: | ---------- | -----------|
-|`考　研`| [《考研英语必备手册：大纲词汇 5500》](https://pdc.capub.cn/search.html#/detail?id=nsinuzstdilibzptpxrwgqdnu6xukdltdr2b7xw7vfsgoa5hwqwaocg5yycskvsiv6sikfilh3yea&from=1&type=cip) | [![KaoYan](https://img.shields.io/badge/-KaoYan.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/KaoYan.txt) |
-|`专四专八`|<a href="https://github.com/mahavivo/english-wordlists"><img src="https://img.shields.io/badge/mahavivo-english_wordlists-black?style=flat-square&logo=github" align="absmiddle"></a> [英语专业四八级词汇表](https://github.com/mahavivo/english-wordlists/blob/master/英语专业四八级词汇表.txt#L12815) | [![TEM8](https://img.shields.io/badge/-TEM8.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/Lexun/releases/download/v1.0.0/TEM8.txt) |
+|`考　研`| [《考研英语必备手册：大纲词汇 5500》](https://pdc.capub.cn/search.html#/detail?id=nsinuzstdilibzptpxrwgqdnu6xukdltdr2b7xw7vfsgoa5hwqwaocg5yycskvsiv6sikfilh3yea&from=1&type=cip) |<a href="https://github.com/Poyinte/Lexun/releases/download/v1.0.0/KaoYan.txt"><img src="https://img.shields.io/badge/-KaoYan.txt-084c91?style=flat-square&logo=googledocs&logoColor=white" align="absmiddle"></a>|
+|`专四专八`|<a href="https://github.com/mahavivo/english-wordlists"><img src="https://img.shields.io/badge/mahavivo-english_wordlists-black?style=flat-square&logo=github" align="absmiddle"></a> [英语专业四八级词汇表](https://github.com/mahavivo/english-wordlists/blob/master/英语专业四八级词汇表.txt#L12815) | <a href="https://github.com/Poyinte/Lexun/releases/download/v1.0.0/TEM8.txt"><img src="https://img.shields.io/badge/-TEM8.txt-084c91?style=flat-square&logo=googledocs&logoColor=white" align="absmiddle"></a>|
 
 </div>
 
