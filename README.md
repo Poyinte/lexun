@@ -40,8 +40,8 @@
 
 | 单　　　词　　　表 |`.txt` 文件|
 | ---------- | -----------|
-| [全国大学英语四、六级考试大纲（2016 年修订版）](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf) | [![CET6](https://img.shields.io/badge/-CET6.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/lexun/raw/main/wordlist/CET6.txt) |
-| [普通高中英语课程标准（2017 年版 2020 年修订）](https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf) | [![CET6](https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/lexun/raw/main/wordlist/SeniorHigh.txt) |
+| [全国大学英语四、六级考试大纲<sub>（2016 年修订版）</sub>](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf) | [![CET6](https://img.shields.io/badge/-CET6.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/lexun/raw/main/wordlist/CET6.txt) |
+| [普通高中英语课程标准<sub>（2017 年版 2020 年修订）</sub>](https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf) | [![CET6](https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/lexun/raw/main/wordlist/SeniorHigh.txt) |
 
 </div>
 
@@ -53,7 +53,7 @@
 > 可使用快捷键 <kbd>Ctrl</kbd> + <kbd>V</kbd> 新建空白页并粘贴文本。
 
 
-* 点击左侧栏 <kbd><img src="./icons/sidebar-import-text.svg" height="15" align="center"> 导入文本</kbd>，选择 `.txt` 文本文件 `可多选`。
+* 点击左侧栏 <kbd><img src="./icons/sidebar-import-text.svg" height="15" align="center"> 导入文本</kbd>，选择 `.txt` 文本文件<sup> `可多选`</sup>。
 
 >[!TIP]
 > 标签页数量过多，标签栏无法完整显示时，可将 `鼠标` 移至标签栏左右两端来左右移动标签栏。
@@ -109,7 +109,7 @@
 
 ## 导出结果
 
-* 点击左侧栏 <kbd><img src="./icons/sidebar-copy.svg" height="15" align="center"> 复制标注结果</kbd>，可复制带有标注的文本 `标注词会被加粗`。
+* 点击左侧栏 <kbd><img src="./icons/sidebar-copy.svg" height="15" align="center"> 复制标注结果</kbd>，可复制带有标注的文本<sup> `标注词会被加粗`</sup>。
 * 点击左侧栏 <kbd><img src="./icons/sidebar-export.svg" height="15" align="center"> 导出超纲词列表</kbd>，可生成 `一行一词` 格式的 `.txt` 超纲词列表文件。
 
 # 隐私与安全
