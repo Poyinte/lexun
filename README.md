@@ -90,5 +90,5 @@
 
 ## 导出结果
 
-* 点击左侧栏 <kbd><img src="./icons/sidebar-copy.svg" height="15" align="center"> 复制标注结果</kbd>，可复制带有标注的文本 `标注词被加粗`。
+* 点击左侧栏 <kbd><img src="./icons/sidebar-copy.svg" height="15" align="center"> 复制标注结果</kbd>，可复制带有标注的文本 `标注词会被加粗`。
 * 点击左侧栏 <kbd><img src="./icons/sidebar-export.svg" height="15" align="center"> 导出超纲词列表</kbd>，可生成 `一行一词` 格式的 `.txt` 超纲词列表文件。
