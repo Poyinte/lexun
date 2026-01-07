@@ -99,7 +99,7 @@
 </div>
 
 >[!NOTE]
->线上词典 API：https://v2.xxapi.cn/api/englishwords
+>线上词典 `API`：https://v2.xxapi.cn/api/englishwords
 
 ## 手动编辑
 * 点击 `阅读视图栏` 右侧的 <kbd><img src="./icons/toolbar-edit.svg" height="15" align="center"></kbd> 可启用 `编辑模式`，编辑 `阅读视图` 中的文本。
@@ -114,3 +114,8 @@
 
 * 点击左侧栏 <kbd><img src="./icons/sidebar-copy.svg" height="15" align="center"> 复制标注结果</kbd>，可复制带有标注的文本 `标注词会被加粗`。
 * 点击左侧栏 <kbd><img src="./icons/sidebar-export.svg" height="15" align="center"> 导出超纲词列表</kbd>，可生成 `一行一词` 格式的 `.txt` 超纲词列表文件。
+
+# 隐私与安全
+
+>[!IMPORTANT]
+> 除 `词典学习窗口` 需联网调用 `API` 外，其余功能均在本地离线运行，数据不会上传至任何服务器。
