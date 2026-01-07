@@ -1,4 +1,10 @@
+<div align="center">
+<img src="./icons/title.svg" height="150" align="center">
+<br>
 面向中国英语学习者的超纲词标注工具
+<br>
+</div>
+
 
 # 快速使用
 
