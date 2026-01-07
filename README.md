@@ -40,8 +40,8 @@
 
 | 单　　　词　　　表 |`.txt` 文件|
 | ---------- | -----------|
-| 全国大学英语四、六级考试大纲 `（2016 年修订版）`  | [![CET6](https://img.shields.io/badge/-CET6.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/lexun/raw/main/wordlist/CET6.txt) |
-| 普通高中英语课程标准 `（2017 年版 2020 年修订）`  | [![CET6](https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/lexun/raw/main/wordlist/SeniorHigh.txt) |
+| [全国大学英语四、六级考试大纲](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf) `（2016 年修订版）`  | [![CET6](https://img.shields.io/badge/-CET6.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/lexun/raw/main/wordlist/CET6.txt) |
+| [普通高中英语课程标准](https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf) `（2017 年版 2020 年修订）`  | [![CET6](https://img.shields.io/badge/-SeniorHigh.txt-084c91?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/Poyinte/lexun/raw/main/wordlist/SeniorHigh.txt) |
 
 </div>
 
