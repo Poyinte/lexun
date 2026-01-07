@@ -2,10 +2,22 @@
 <p>
 <img src="./icons/title.svg" height="150" align="center">
 </p>
-面向中国英语学习者的超纲词标注工具
 
+面向中国英语学习者的超纲词标注工具
+<br>
+<sub>Powered by <code><img src="./icons/gemini.svg" height="12" align="center"> Gemini</code> </sub>
 </div>
 
+<div align="right">
+  
+ [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+ 
+</div>
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+
+---
 
 # 快速使用
 
