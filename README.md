@@ -30,7 +30,7 @@
 # <img src="./icons/list-check.svg" height="30"> 单词表资源
 
 >[!WARNING]
-> 以下 `.txt` 单词表文件均由 `Python` 脚本 <sub>Powered by <code><img src="./icons/gemini.svg" height="12" align="center"> Gemini</code></sub> 自动化提取生成。仅供参考。
+> 以下 `.txt` 单词表文件均由 `Python` 脚本 <sub>Made with <code><img src="./icons/gemini.svg" height="12" align="center"> Gemini</code></sub> 自动化提取生成。仅供参考。
 >
 > 请以官方正式文件为准。
 
